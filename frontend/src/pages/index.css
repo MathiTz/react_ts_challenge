@@ -1,0 +1,37 @@
+/* HOME */
+
+.home__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 20px;
+  border: 1px solid #aa8854;
+  border-radius: 5px;
+}
+
+/* HOME */
+/* CREATE */
+
+.create__container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.create__container h1 {
+  padding-top: 20px;
+}
+
+.create__buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+}
+
+/* CREATE */
