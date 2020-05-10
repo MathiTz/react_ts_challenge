@@ -29,13 +29,13 @@ const Step2: React.FC<Props> = (props) => {
 		}
 
 		if (size === 'medium') {
-			if (toppings.length === 7) {
+			if (toppingsSelected.length === 7) {
 				return true
 			}
 		}
 
 		if (size === 'large') {
-			if (toppings.length === 9) {
+			if (toppingsSelected.length === 9) {
 				return true
 			}
 		}
